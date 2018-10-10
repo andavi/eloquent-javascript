@@ -40,6 +40,7 @@ console.log(dominantDirection("Hello!"));
 // → ltr
 console.log(dominantDirection("Hey, مساء الخير"));
 // → rtl
-
 console.log(dominantDirection('俄罗"тяв"'));
+// → ltr
 console.log(dominantDirection('英国的狗说"woof", 俄罗斯的狗说"тяв"'));
+// → ltr
