@@ -1,0 +1,8 @@
+$ curl http://localhost:8000/file.text
+File not found
+$ curl -X PUT -d hello http://localhost:8000/file.text
+$ curl http://localhost:8000/file.text
+hello
+$ curl -X DELETE http://localhost:8000/file.text
+$ curl http://localhost:8000/file.text
+File not found
