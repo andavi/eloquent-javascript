@@ -1,1 +1,1 @@
-Exercises for *Eloquent JavaScript*.
+Exercises for [*Eloquent JavaScript*](http://eloquentjavascript.net).
